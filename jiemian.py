@@ -159,7 +159,8 @@ with gr.Blocks(css=".gradio-container {}",title='哈哈哈') as demo:
                     #  inputs=input_img, 
                      outputs=text_output)      
 
-        
+
+# 哈哈哈
 gr.close_all() 
 demo.queue(api_open=False)
 demo.launch(show_api=False)
